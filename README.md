@@ -32,3 +32,5 @@ Push changes:
 bash
 Copy code
 git push
+
+# be sure to pip install the requirements.txt
