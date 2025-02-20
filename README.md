@@ -34,3 +34,7 @@ Copy code
 git push
 
 # be sure to pip install the requirements.txt
+
+# to be able deploy the app with subqueries it needs to be pushed directly to heroku
+git push heroku main
+

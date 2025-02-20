@@ -3,7 +3,7 @@ import pandas as pd
 
 def create_connection_string(db_config):
     """db_config needs to have user, password, host, and database name"""
-    return f"mysql+mysqlconnector://{db_config['user']}:{db_config['password']}@{db_config['host']}/{db_config['database']}"
+    return f"mysql+mysqlconnector://{db_config['user']}:{db_config['password']}@{db_config['host']}:{db_config['port']}/{db_config['database']}"
 
 def test_connection(db_dict_config):
     """
